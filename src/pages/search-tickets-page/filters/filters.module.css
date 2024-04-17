@@ -1,0 +1,173 @@
+.filtersContainer {
+    display: grid;
+    gap: 30px;
+    height: min-content;
+
+    padding: 20px 0px;
+    border-radius: var(--border-radius-6);
+
+    background-color: white;
+    -webkit-box-shadow: var(--box-shadow-standart);
+    -moz-box-shadow: var(--box-shadow-standart);
+    box-shadow: var(--box-shadow-standart);
+}
+
+@media (max-width: 900px) {
+    .filtersContainer {
+        display: none;
+    }
+}
+
+.filtersContainerVisible {
+    display: grid;
+}
+
+/* -------------------------------- */
+/* mobile styles                    */
+/* -------------------------------- */
+
+.filtersMobile {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: var(--border-radius-6);
+
+    background-color: white;
+    -webkit-box-shadow: var(--box-shadow-standart);
+    -moz-box-shadow: var(--box-shadow-standart);
+    box-shadow: var(--box-shadow-standart);
+}
+
+.filtersMobile button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.filtersMobile button:where(:focus, :focus-visible()) {
+    outline: none;
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .filtersMobile {
+        display: flex;
+    }
+}
+
+/* -------------------------------- */
+/* group styles                     */
+/* -------------------------------- */
+
+.group {
+    display: grid;
+    gap: 12px;
+}
+
+.group:first-child {
+    padding-inline: 15px;
+}
+
+.groupTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .group {
+        display: none;
+    }
+}
+
+.groupVisible {
+    display: grid;
+}
+
+/* -------------------------------- */
+/* checkbox styles                  */
+/* -------------------------------- */
+
+.checkboxHoverGroup {
+    display: flex;
+    min-width: max-content;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 6px;
+    padding-inline: 15px;
+
+    transition: background-color 150ms ease;
+    cursor: pointer;
+}
+
+.checkboxHoverGroup *:hover {
+    cursor: pointer;
+}
+
+.checkboxHoverGroup:hover {
+    background-color: var(--background-hover);
+}
+
+.checkboxHoverGroup:hover p {
+    opacity: 1;
+}
+
+.only {
+    text-transform: uppercase;
+    color: var(--text-blue);
+    font-weight: 600;
+    font-size: 0.75rem;
+
+    opacity: 0;
+}
+
+/* -------------------------------- */
+/* buttons styles                   */
+/* -------------------------------- */
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    border: 1px solid var(--border-standart);
+    background: transparent;
+    color: var(--text-blue);
+    flex-grow: 1;
+    cursor: pointer;
+    padding-block: 10px;
+    font-weight: 600;
+
+    transition:
+        150ms border-color ease,
+        150ms background-color ease;
+}
+
+.button:focus-visible {
+    outline: 2px solid var(--border-hover);
+}
+
+.button:first-child {
+    border-top-left-radius: var(--border-radius-4);
+    border-bottom-left-radius: var(--border-radius-4);
+}
+.button:last-child {
+    border-top-right-radius: var(--border-radius-4);
+    border-bottom-right-radius: var(--border-radius-4);
+}
+
+.button:hover {
+    border-color: var(--border-hover);
+    background-color: var(--background-hover);
+}
+
+.buttonActive {
+    background-color: var(--background-active);
+    color: white;
+}
+
+.buttonActive:hover {
+    background-color: var(--background-active);
+    color: white;
+}

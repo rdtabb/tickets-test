@@ -1,0 +1,26 @@
+.tickets {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: min-content;
+    gap: 30px;
+
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+@media (min-width: 900px) {
+    .tickets {
+        padding-right: 15px;
+    }
+
+    .tickets::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    .tickets::-webkit-scrollbar-thumb {
+        --clr-primary-900: 0, 0%, 0%;
+        background-color: hsl(var(--clr-primary-900), 0.15);
+        border-radius: 100vmax;
+    }
+}

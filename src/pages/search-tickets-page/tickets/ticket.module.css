@@ -1,0 +1,73 @@
+.ticket {
+    display: flex;
+    height: min-content;
+
+    border-radius: var(--border-radius-6);
+    background-color: var(--background-white);
+    box-shadow: var(--box-shadow-standart);
+}
+
+.ticketSection {
+    padding: 30px 25px;
+}
+
+.ticketSection:first-child {
+    border-right: 1px solid #fafafb;
+}
+
+.ticketSection:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image {
+    max-width: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100%;
+    padding-block: 10px;
+    border-radius: var(--border-radius-4);
+
+    font-weight: var(--fw-600);
+    color: white;
+    border: none;
+    background-color: #fe6d01;
+
+    transition: background-color 150ms ease;
+    cursor: pointer;
+}
+
+.button:where(:hover, :focus-visible) {
+    background-color: #ff8125;
+    outline: none;
+}
+
+.buttonPrice {
+    display: block;
+}
+
+/* ------------------------------ */
+/* text                           */
+/* ------------------------------ */
+
+.time {
+    font-size: 3rem;
+}
+
+.airport {
+    font-weight: var(--fw-600);
+}
+
+@media (max-width: 900px) {
+    .ticketSection p {
+        font-size: 0.75rem;
+    }
+
+    .ticket {
+        flex-direction: column-reverse;
+    }
+}

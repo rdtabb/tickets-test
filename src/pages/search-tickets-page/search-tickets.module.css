@@ -1,0 +1,18 @@
+.main {
+    --width: 80rem;
+
+    display: flex;
+    gap: 30px;
+
+    width: min(var(--width), 100% - 1rem);
+    height: 100%;
+    margin-inline: auto;
+    padding-top: 200px;
+}
+
+@media (max-width: 1210px) {
+    .main {
+        flex-direction: column;
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "tickets": [
+        {
+            "price": 31203,
+            "currency": "₽",
+            "companyLogo": "https://dalmac.ie/wp-content/uploads/2018/03/screen_white_bkg.jpg",
+            "departureInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "09:25",
+                "date": "9 окт 2018, Пт"
+            },
+            "arrivalInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "10.35",
+                "date": "9 окт 2018, Пт"
+            },
+            "transfersNumber": 3
+        },
+        {
+            "price": 21203,
+            "currency": "₽",
+            "companyLogo": "https://dalmac.ie/wp-content/uploads/2018/03/screen_white_bkg.jpg",
+            "departureInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "09:25",
+                "date": "9 окт 2018, Пт"
+            },
+            "arrivalInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "10.35",
+                "date": "9 окт 2018, Пт"
+            },
+            "transfersNumber": 1
+        },
+        {
+            "price": 25203,
+            "currency": "₽",
+            "companyLogo": "https://dalmac.ie/wp-content/uploads/2018/03/screen_white_bkg.jpg",
+            "departureInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "09:25",
+                "date": "9 окт 2018, Пт"
+            },
+            "arrivalInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "10.35",
+                "date": "9 окт 2018, Пт"
+            },
+            "transfersNumber": 3
+        },
+        {
+            "price": 71203,
+            "currency": "₽",
+            "companyLogo": "https://dalmac.ie/wp-content/uploads/2018/03/screen_white_bkg.jpg",
+            "departureInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "09:25",
+                "date": "9 окт 2018, Пт"
+            },
+            "arrivalInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "10.35",
+                "date": "9 окт 2018, Пт"
+            },
+            "transfersNumber": 2
+        },
+        {
+            "price": 21203,
+            "currency": "₽",
+            "companyLogo": "https://dalmac.ie/wp-content/uploads/2018/03/screen_white_bkg.jpg",
+            "departureInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "09:25",
+                "date": "9 окт 2018, Пт"
+            },
+            "arrivalInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "10.35",
+                "date": "9 окт 2018, Пт"
+            },
+            "transfersNumber": 0
+        },
+        {
+            "price": 81203,
+            "currency": "₽",
+            "companyLogo": "https://dalmac.ie/wp-content/uploads/2018/03/screen_white_bkg.jpg",
+            "departureInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "09:25",
+                "date": "9 окт 2018, Пт"
+            },
+            "arrivalInfo": {
+                "airport": "VVO, Владивосток",
+                "time": "10.35",
+                "date": "9 окт 2018, Пт"
+            },
+            "transfersNumber": 4
+        }
+    ]
+}
